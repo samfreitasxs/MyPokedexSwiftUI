@@ -9,6 +9,7 @@ import Foundation
 
 
 class OnboardingViewModel: ObservableObject {
+    @Published var showSplash: Bool = true
     @Published var currentStep: Int = 0
     @Published var onboardingSteps: [OnboardingStep] = [
         OnboardingStep(

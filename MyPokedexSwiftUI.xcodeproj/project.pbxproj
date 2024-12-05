@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF52E2702D02221100CF4983 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E26F2D02221100CF4983 /* OnboardingViewModel.swift */; };
 		DF52E2722D0223A700CF4983 /* OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E2712D0223A700CF4983 /* OnboardingStep.swift */; };
+		DF52E2752D0238BA00CF4983 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E2742D0238BA00CF4983 /* SplashView.swift */; };
 		DFCA93E42D014987002AE6F0 /* MyPokedexSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA93E32D014987002AE6F0 /* MyPokedexSwiftUIApp.swift */; };
 		DFCA93E62D014987002AE6F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA93E52D014987002AE6F0 /* ContentView.swift */; };
 		DFCA93E82D014989002AE6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCA93E72D014989002AE6F0 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		DF52E26F2D02221100CF4983 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DF52E2712D0223A700CF4983 /* OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
+		DF52E2742D0238BA00CF4983 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		DFCA93E02D014987002AE6F0 /* MyPokedexSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPokedexSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCA93E32D014987002AE6F0 /* MyPokedexSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokedexSwiftUIApp.swift; sourceTree = "<group>"; };
 		DFCA93E52D014987002AE6F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF52E2732D02388100CF4983 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DF52E2742D0238BA00CF4983 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		DFCA93D72D014987002AE6F0 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 		DFCA940D2D014AD6002AE6F0 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				DF52E2732D02388100CF4983 /* Splash */,
 				DFCA94102D014AF4002AE6F0 /* ViewModel */,
 				DFCA940F2D014AED002AE6F0 /* Model */,
 				DFCA940E2D014AE5002AE6F0 /* View */,
@@ -345,6 +356,7 @@
 				DFCA93E42D014987002AE6F0 /* MyPokedexSwiftUIApp.swift in Sources */,
 				DF52E2722D0223A700CF4983 /* OnboardingStep.swift in Sources */,
 				DF52E2702D02221100CF4983 /* OnboardingViewModel.swift in Sources */,
+				DF52E2752D0238BA00CF4983 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
