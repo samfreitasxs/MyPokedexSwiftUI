@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF52E2702D02221100CF4983 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E26F2D02221100CF4983 /* OnboardingViewModel.swift */; };
+		DF52E2722D0223A700CF4983 /* OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E2712D0223A700CF4983 /* OnboardingStep.swift */; };
 		DFCA93E42D014987002AE6F0 /* MyPokedexSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA93E32D014987002AE6F0 /* MyPokedexSwiftUIApp.swift */; };
 		DFCA93E62D014987002AE6F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA93E52D014987002AE6F0 /* ContentView.swift */; };
 		DFCA93E82D014989002AE6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCA93E72D014989002AE6F0 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF52E26F2D02221100CF4983 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		DF52E2712D0223A700CF4983 /* OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
 		DFCA93E02D014987002AE6F0 /* MyPokedexSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPokedexSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCA93E32D014987002AE6F0 /* MyPokedexSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokedexSwiftUIApp.swift; sourceTree = "<group>"; };
 		DFCA93E52D014987002AE6F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 		DFCA940F2D014AED002AE6F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF52E2712D0223A700CF4983 /* OnboardingStep.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 		DFCA94102D014AF4002AE6F0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DF52E26F2D02221100CF4983 /* OnboardingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -337,6 +343,8 @@
 				DFCA94122D014B0C002AE6F0 /* OnboardingView.swift in Sources */,
 				DFCA93E62D014987002AE6F0 /* ContentView.swift in Sources */,
 				DFCA93E42D014987002AE6F0 /* MyPokedexSwiftUIApp.swift in Sources */,
+				DF52E2722D0223A700CF4983 /* OnboardingStep.swift in Sources */,
+				DF52E2702D02221100CF4983 /* OnboardingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
