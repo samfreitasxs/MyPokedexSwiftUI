@@ -11,7 +11,7 @@ struct SplashView: View {
     var body: some View {
         ZStack {
             Color("AzulBackground")
-            Image("Pokedex")
+            Image("PokedexLogo")
         }
         .ignoresSafeArea()
     }
