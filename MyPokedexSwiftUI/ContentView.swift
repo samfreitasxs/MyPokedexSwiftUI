@@ -31,15 +31,15 @@ struct ContentView: View {
     var trainersImages: some View {
         // Utilizando a ZSstack para sobrepor as imagens.
         ZStack {
-            Image("trainer1")
+            Image("trainer1 1")
             // Com o (.offset) pode se mudar os eixos com x e y.
                 .offset(x: -50)
             //Background pode se colocar imagens atras.
                 .background {
                     Image("shadowTrainer1")
-                        .offset(x: -65, y: 110)
+                        .offset(x: -70, y: 120)
                 }
-            Image("trainer2")
+            Image("trainer2 1")
                 .offset(x: 50, y: -10)
                 .background{
                     Image("shadowTrainer2")
