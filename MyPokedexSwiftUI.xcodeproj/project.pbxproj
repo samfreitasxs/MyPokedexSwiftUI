@@ -15,6 +15,12 @@
 		DFCA93FF2D014989002AE6F0 /* MyPokedexSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA93FE2D014989002AE6F0 /* MyPokedexSwiftUIUITests.swift */; };
 		DFCA94012D014989002AE6F0 /* MyPokedexSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA94002D014989002AE6F0 /* MyPokedexSwiftUIUITestsLaunchTests.swift */; };
 		DFCA94122D014B0C002AE6F0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA94112D014B0C002AE6F0 /* OnboardingView.swift */; };
+		DFCA941A2D015350002AE6F0 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFCA94152D015350002AE6F0 /* Poppins-Light.ttf */; };
+		DFCA941B2D015350002AE6F0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFCA94162D015350002AE6F0 /* Poppins-Regular.ttf */; };
+		DFCA941C2D015350002AE6F0 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFCA94172D015350002AE6F0 /* Poppins-SemiBold.ttf */; };
+		DFCA941D2D015350002AE6F0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFCA94182D015350002AE6F0 /* Poppins-Bold.ttf */; };
+		DFCA941E2D015350002AE6F0 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFCA94192D015350002AE6F0 /* Poppins-Medium.ttf */; };
+		DFCA94222D015551002AE6F0 /* MyColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCA94212D015551002AE6F0 /* MyColors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,13 @@
 		DFCA93FE2D014989002AE6F0 /* MyPokedexSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokedexSwiftUIUITests.swift; sourceTree = "<group>"; };
 		DFCA94002D014989002AE6F0 /* MyPokedexSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokedexSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DFCA94112D014B0C002AE6F0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		DFCA94152D015350002AE6F0 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		DFCA94162D015350002AE6F0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		DFCA94172D015350002AE6F0 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		DFCA94182D015350002AE6F0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		DFCA94192D015350002AE6F0 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		DFCA941F2D015380002AE6F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DFCA94212D015551002AE6F0 /* MyColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MyColors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +109,12 @@
 		DFCA93E22D014987002AE6F0 /* MyPokedexSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DFCA941F2D015380002AE6F0 /* Info.plist */,
+				DFCA94132D0152B5002AE6F0 /* Utils */,
 				DFCA940D2D014AD6002AE6F0 /* Onboarding */,
 				DFCA93E32D014987002AE6F0 /* MyPokedexSwiftUIApp.swift */,
 				DFCA93E52D014987002AE6F0 /* ContentView.swift */,
+				DFCA94212D015551002AE6F0 /* MyColors.xcassets */,
 				DFCA93E72D014989002AE6F0 /* Assets.xcassets */,
 				DFCA93E92D014989002AE6F0 /* Preview Content */,
 			);
@@ -160,6 +176,26 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFCA94132D0152B5002AE6F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DFCA94142D0152C1002AE6F0 /* Fonts */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DFCA94142D0152C1002AE6F0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DFCA94182D015350002AE6F0 /* Poppins-Bold.ttf */,
+				DFCA94152D015350002AE6F0 /* Poppins-Light.ttf */,
+				DFCA94192D015350002AE6F0 /* Poppins-Medium.ttf */,
+				DFCA94162D015350002AE6F0 /* Poppins-Regular.ttf */,
+				DFCA94172D015350002AE6F0 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +302,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFCA941C2D015350002AE6F0 /* Poppins-SemiBold.ttf in Resources */,
+				DFCA941E2D015350002AE6F0 /* Poppins-Medium.ttf in Resources */,
+				DFCA941D2D015350002AE6F0 /* Poppins-Bold.ttf in Resources */,
 				DFCA93EB2D014989002AE6F0 /* Preview Assets.xcassets in Resources */,
+				DFCA941A2D015350002AE6F0 /* Poppins-Light.ttf in Resources */,
+				DFCA94222D015551002AE6F0 /* MyColors.xcassets in Resources */,
 				DFCA93E82D014989002AE6F0 /* Assets.xcassets in Resources */,
+				DFCA941B2D015350002AE6F0 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +503,7 @@
 				DEVELOPMENT_TEAM = 85N8VR2Y7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPokedexSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,6 +533,7 @@
 				DEVELOPMENT_TEAM = 85N8VR2Y7H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPokedexSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
