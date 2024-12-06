@@ -10,7 +10,7 @@ import SwiftUI
 struct SplashView: View {
     var body: some View {
         ZStack {
-            Color("AzulBackground")
+            Color(PokedexColors.backgroundBlue)
             Image("PokedexLogo")
         }
         .ignoresSafeArea()

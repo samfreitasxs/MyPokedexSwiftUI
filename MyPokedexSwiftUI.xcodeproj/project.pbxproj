@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF003DFC2D03049B00909DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003DFB2D03049B00909DCF /* ContentView.swift */; };
+		DF003DFE2D03078E00909DCF /* FontMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003DFD2D03078E00909DCF /* FontMaker.swift */; };
+		DF003E012D030A7000909DCF /* PokedexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003E002D030A7000909DCF /* PokedexColors.swift */; };
+		DF003E032D030C1900909DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003E022D030C1800909DCF /* ContentView.swift */; };
+		DF003E0A2D03139F00909DCF /* LoginOrSingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF003E092D03139F00909DCF /* LoginOrSingUpView.swift */; };
 		DF52E2702D02221100CF4983 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E26F2D02221100CF4983 /* OnboardingViewModel.swift */; };
 		DF52E2722D0223A700CF4983 /* OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E2712D0223A700CF4983 /* OnboardingStep.swift */; };
 		DF52E2752D0238BA00CF4983 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52E2742D0238BA00CF4983 /* SplashView.swift */; };
@@ -44,7 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF003DFB2D03049B00909DCF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../.Trash/ContentView.swift; sourceTree = "<group>"; };
+		DF003DFD2D03078E00909DCF /* FontMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMaker.swift; sourceTree = "<group>"; };
+		DF003E002D030A7000909DCF /* PokedexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexColors.swift; sourceTree = "<group>"; };
+		DF003E022D030C1800909DCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF003E092D03139F00909DCF /* LoginOrSingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrSingUpView.swift; sourceTree = "<group>"; };
 		DF52E26F2D02221100CF4983 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DF52E2712D0223A700CF4983 /* OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
 		DF52E2742D0238BA00CF4983 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -92,6 +98,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF003DFF2D030A5A00909DCF /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DF003E002D030A7000909DCF /* PokedexColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		DF003E042D0312AE00909DCF /* LoginAndSingUp */ = {
+			isa = PBXGroup;
+			children = (
+				DF003E082D03136F00909DCF /* Model */,
+				DF003E072D03136500909DCF /* ViewModel */,
+				DF003E062D03135900909DCF /* View */,
+			);
+			path = LoginAndSingUp;
+			sourceTree = "<group>";
+		};
+		DF003E052D0312EF00909DCF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DFCA94212D015551002AE6F0 /* MyColors.xcassets */,
+				DFCA93E72D014989002AE6F0 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DF003E062D03135900909DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF003E092D03139F00909DCF /* LoginOrSingUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF003E072D03136500909DCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF003E082D03136F00909DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DF52E2732D02388100CF4983 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,13 +178,12 @@
 		DFCA93E22D014987002AE6F0 /* MyPokedexSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DF52E2732D02388100CF4983 /* Splash */,
+				DF003E042D0312AE00909DCF /* LoginAndSingUp */,
 				DFCA941F2D015380002AE6F0 /* Info.plist */,
 				DFCA94132D0152B5002AE6F0 /* Utils */,
 				DFCA940D2D014AD6002AE6F0 /* Onboarding */,
 				DFCA93E32D014987002AE6F0 /* MyPokedexSwiftUIApp.swift */,
-				DF003DFB2D03049B00909DCF /* ContentView.swift */,
-				DFCA94212D015551002AE6F0 /* MyColors.xcassets */,
-				DFCA93E72D014989002AE6F0 /* Assets.xcassets */,
 				DFCA93E92D014989002AE6F0 /* Preview Content */,
 			);
 			path = MyPokedexSwiftUI;
@@ -163,7 +217,6 @@
 		DFCA940D2D014AD6002AE6F0 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				DF52E2732D02388100CF4983 /* Splash */,
 				DFCA94102D014AF4002AE6F0 /* ViewModel */,
 				DFCA940F2D014AED002AE6F0 /* Model */,
 				DFCA940E2D014AE5002AE6F0 /* View */,
@@ -174,6 +227,7 @@
 		DFCA940E2D014AE5002AE6F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF003E022D030C1800909DCF /* ContentView.swift */,
 				DFCA94112D014B0C002AE6F0 /* OnboardingView.swift */,
 			);
 			path = View;
@@ -198,6 +252,8 @@
 		DFCA94132D0152B5002AE6F0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DF003E052D0312EF00909DCF /* Assets */,
+				DF003DFF2D030A5A00909DCF /* Colors */,
 				DFCA94142D0152C1002AE6F0 /* Fonts */,
 			);
 			path = Utils;
@@ -211,6 +267,7 @@
 				DFCA94192D015350002AE6F0 /* Poppins-Medium.ttf */,
 				DFCA94162D015350002AE6F0 /* Poppins-Regular.ttf */,
 				DFCA94172D015350002AE6F0 /* Poppins-SemiBold.ttf */,
+				DF003DFD2D03078E00909DCF /* FontMaker.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -351,12 +408,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF003E012D030A7000909DCF /* PokedexColors.swift in Sources */,
 				DFCA94122D014B0C002AE6F0 /* OnboardingView.swift in Sources */,
+				DF003E0A2D03139F00909DCF /* LoginOrSingUpView.swift in Sources */,
 				DFCA93E42D014987002AE6F0 /* MyPokedexSwiftUIApp.swift in Sources */,
-				DF003DFC2D03049B00909DCF /* ContentView.swift in Sources */,
 				DF52E2722D0223A700CF4983 /* OnboardingStep.swift in Sources */,
+				DF003E032D030C1900909DCF /* ContentView.swift in Sources */,
 				DF52E2702D02221100CF4983 /* OnboardingViewModel.swift in Sources */,
 				DF52E2752D0238BA00CF4983 /* SplashView.swift in Sources */,
+				DF003DFE2D03078E00909DCF /* FontMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
