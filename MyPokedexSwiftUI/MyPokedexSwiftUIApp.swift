@@ -12,7 +12,7 @@ struct MyPokedexSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             //Mudando a chamada do WindowGroup para chamar a view.
-            ContentView(viewModel: OnboardingViewModel())
+            OnboardingView(viewModel: OnboardingViewModel())
         }
     }
 }
