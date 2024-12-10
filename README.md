@@ -10,7 +10,6 @@ O objetivo deste projeto é praticar e demonstrar habilidades em:
 - Desenvolvimento iOS utilizando **SwiftUI**.
 - Integração com APIs RESTful para consumo de dados.
 - Construção de interfaces interativas e responsivas.
-- Gerenciamento de estados com `@State`, `@Binding` e `@ObservedObject`.
 
 ---
 
@@ -29,7 +28,7 @@ O objetivo deste projeto é praticar e demonstrar habilidades em:
 - **Linguagem**: Swift
 - **Framework**: SwiftUI
 - **Gerenciamento de Dependências**: Swift Package Manager (SPM)
-- **API**: [PokéAPI](https://pokeapi.co/)
+- **API**:
 - **Ferramentas Adicionais**: Xcode, JSON Parsing, Combine (se aplicável)
 
 ---
