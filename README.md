@@ -10,7 +10,7 @@ O objetivo deste projeto é praticar e demonstrar habilidades em:
 - Desenvolvimento iOS utilizando **SwiftUI**.
 - Integração com APIs RESTful para consumo de dados.
 - Construção de interfaces interativas e responsivas.
-
+- teste
 ---
 
 ## 🚀 Funcionalidades
@@ -20,7 +20,7 @@ O objetivo deste projeto é praticar e demonstrar habilidades em:
 - **Filtragem**: Filtre Pokémon por tipo ou geração.
 - **Detalhes do Pokémon**: Informações detalhadas com animações e gráficos.
 - **Modo Dark/Light**: Interface adaptada para modos claro e escuro.
-
+- Teste
 ---
 
 ## 🛠️ Tecnologias Utilizadas
