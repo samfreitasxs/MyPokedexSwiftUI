@@ -4,14 +4,6 @@
 
 ---
 
-## 🎯 Objetivo
-
-O objetivo deste projeto é praticar e demonstrar habilidades em:
-- Desenvolvimento iOS utilizando **SwiftUI**.
-- Integração com APIs RESTful para consumo de dados.
-- 
----
-
 ## 🚀 Funcionalidades
 
 - **Exibição de Pokémon**: Lista de Pokémon com detalhes como tipo, habilidades e status.
