@@ -17,7 +17,6 @@
 - **Linguagem**: Swift
 - **Framework**: SwiftUI
 - **Gerenciamento de Dependências**: Swift Package Manager (SPM)
-- **API**:
 - **Ferramentas Adicionais**: Xcode, JSON Parsing, Combine (se aplicável)
 
 ---
