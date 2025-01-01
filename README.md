@@ -1,4 +1,4 @@
-# MyPokedexSwiftUI 🐾
+# MyPokedexSwiftUI
 
 **MyPokedexSwiftUI** é um aplicativo criado em SwiftUI que permite explorar informações sobre diferentes Pokémon de maneira intuitiva e visualmente atraente. Este projeto foi desenvolvido como parte de um estudo em desenvolvimento iOS e SwiftUI.
 
